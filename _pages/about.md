@@ -105,4 +105,4 @@ if the network protocol changes. A launcher would make this much more
 user-friendly.
 
 For more information on how these features are implemented, please see
-[Design](/mondradiko/design).
+[Design](/design).
