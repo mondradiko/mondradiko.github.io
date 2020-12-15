@@ -12,7 +12,7 @@ permalink: /building
 - [GLM](https://github.com/g-truc/glm)
 - [glslang](https://github.com/KhronosGroup/glslang)
 - [PhysFS](https://www.icculus.org/physfs/)
-- [LZ4](https://lz4.org/)
+- [LZ4](https://lz4.github.io/lz4/)
 - [xxHash](https://cyan4973.github.io/xxHash/)
 
 Most of these packages should be available through your package manager, but if not, links are provided for convenience.
