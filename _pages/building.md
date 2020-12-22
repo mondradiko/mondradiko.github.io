@@ -11,9 +11,16 @@ permalink: /building
 - [Assimp](http://assimp.org/)
 - [GLM](https://github.com/g-truc/glm)
 - [glslang](https://github.com/KhronosGroup/glslang)
-- [PhysFS](https://www.icculus.org/physfs/)
 - [LZ4](https://lz4.github.io/lz4/)
 - [xxHash](https://cyan4973.github.io/xxHash/)
+- [Flatbuffers](https://google.github.io/flatbuffers/)
+- [libktx](https://github.com/KhronosGroup/KTX-Software)
+
+GameNetworkingSockets dependencies:
+- [Protobuf](https://github.com/protocolbuffers/protobuf)
+
+libktx dependencies:
+- [zstd](https://github.com/facebook/zstd)
 
 Most of these packages should be available through your package manager, but if not, links are provided for convenience.
 
@@ -46,9 +53,10 @@ sudo ninja install
 # Debian/Ubuntu
 
 ```bash
-sudo apt install cmake pkg-config libvulkan-dev libglm-dev libphysfs-dev \
+sudo apt install cmake pkg-config libvulkan-dev libglm-dev \
                      libassimp-dev libsdl2-dev glslang-tools \
-                     liblz4-dev libxxhash-dev
+                     liblz4-dev libxxhash-dev flatbuffers-compiler \
+                     libprotobuf-dev libzstd-dev
 ```
 
 Also see [Installing the OpenXR SDK](#installing-the-openxr-sdk).
