@@ -93,30 +93,23 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name: "Marceline Cramer"
+  bio:
+  email: "mailto:cramermarceline@gmail.com"
+  avatar: "/assets/images/marceline-cramer-pfp.jpg"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/marceline-cramer"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:cramermarceline@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://marceline-cramer.github.io"
+    - label: "Discord"
+      icon: "fab fa-discord"
+      url: "@CrazyWazy#5915"
 
 # Site Footer
 footer:

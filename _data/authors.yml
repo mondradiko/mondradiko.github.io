@@ -1,0 +1,14 @@
+Curran:
+  name: "Curran"
+  bio:
+  avatar: "/assets/images/curran-pfp.jpg"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Curran-H"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:helmichcurran@gmail.com"
+    - label: "Discord"
+      icon: "fab fa-discord"
+      url: "@Curran#4325"
