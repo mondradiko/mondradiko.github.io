@@ -121,11 +121,17 @@ footer:
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "Discord"
-      icon: "fab fa-discord"
+      icon: "fab fa-fw fa-discord"
       url: https://discord.gg/NENngxc
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/marceline-cramer/mondradiko
+    - label: "Patreon"
+      icon: "fab fa-fw fa-patreon"
+      url: https://patreon.com/marcelinecramer
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: https://www.youtube.com/channel/UCFt7rHYh4ssg1vM1h-1K_RQ
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
