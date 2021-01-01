@@ -12,11 +12,10 @@ as well as where it's expected to head in the near future.
 # Where are we now?
 
 So far, we've accomplished a lot on the infrastructure of the
-engine. We have an Entity-Component-System (ECS) simulation,
+engine. We have an Entity-Component-System (ECS) world,
 as well as basic network communication and sychronization,
-and a rudimentary binary asset system. We've also been able
-to successfully run Mondradiko on a VR headset (HTC Vive on
-Linux with Monado).
+and a rudimentary binary asset system. We've also successfully
+ran Mondradiko on a VR headset (HTC Vive on Linux with Monado).
 
 # Next Steps
 
@@ -36,7 +35,7 @@ is an essential goal, and we're making it a priority.
 
 We've picked out [WebAssembly](https://webassembly.org/) (Wasm) to be
 the main scripting environment for Mondradiko. This may seem like a
-strange choice at first, but we have several good reasons:
+strange choice at first, but we have several reasons:
 
 - Wasm is sandboxed, meaning guaranteed safety
 - Wasm is fast and JIT-compiled
@@ -98,9 +97,9 @@ having to process and store the polygonal geometry for those elements.
 
 Mondradiko uses [VRM](https://vrm.dev/en/) for its avatar format.
 It's undetermined at this time how exactly VRM models will
-be distributed to clients, but the current options are
+be distributed to clients, but the current options are to
 download them from a third-party source (such as [VroidHub](https://hub.vroid.com/en/) or [ReadyPlayerMe](https://readyplayer.me/)),
-or download and upload user avatars to the world server,
+or to download and upload user avatars to the world server,
 either directly or through a Matrix room's file storage.
 We'll be discussing how this works, as well as Matrix integration, in
 coming months.
