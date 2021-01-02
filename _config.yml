@@ -108,8 +108,8 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://marceline-cramer.github.io"
     - label: "Discord"
-      icon: "fab fa-discord"
-      url: "@CrazyWazy#5915"
+      icon: "fab fa-fw fa-discord"
+      # url: "@CrazyWazy#5915"
 
 # Site Footer
 footer:

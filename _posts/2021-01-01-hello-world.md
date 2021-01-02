@@ -1,6 +1,5 @@
 ---
 title: Hello World!
-author: Marceline Cramer
 ---
 
 Happy New Year's everyone!
