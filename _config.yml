@@ -94,16 +94,13 @@ analytics:
 # Site Author
 author:
   name: "Marceline Cramer"
-  bio:
-  email: "mailto:cramermarceline@gmail.com"
+  bio: Lead project developer. C++, Vulkan, game engine architecture.
+  email: cramermarceline@gmail.com
   avatar: "/assets/images/marceline-cramer-pfp.jpg"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/marceline-cramer"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:cramermarceline@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://marceline-cramer.github.io"
