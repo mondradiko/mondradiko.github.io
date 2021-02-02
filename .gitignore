@@ -1,0 +1,5 @@
+# Local site build
+_site/
+
+# Ruby cache
+Gemfile.lock
