@@ -97,19 +97,19 @@ around the scene livens it up quite a bit. However, there is still a lot of
 room for improvement. Here are some things that we'll be working on this
 February:
 
-### Aliasing Reduction
+**Aliasing Reduction:**
 - Texture mip-mapping
 - Multisampling
 - Anisotropic filtering
 
-### Features
+**Features:**
 - Alpha transparency
 - Normal mapping
 - Physically-correct PBR
 - Model skinning
 - Blend targets
 
-### Performance Improvements
+**Performance Improvements:**
 - Depth prepass
 - Staging ring buffer for GPU transfers
 - Mesh data pool
