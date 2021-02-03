@@ -74,7 +74,7 @@ mars@sol ~/Code/mondradiko/builddir $ ls -l
 mars@sol ~/Code/mondradiko/builddir $ server/mondradiko-server & client/mondradiko-client
 ```
 
-After a world's assets are bundled, they are meant to be packaged into a
+After a world's assets are bundled, they will be packaged into a
 compressed format like LZMA, and made available for download to clients
 who wish to connect to a server. More information on the content model, lump
 compression, and the bundler system will be posted in a future devlog.
@@ -97,19 +97,19 @@ around the scene livens it up quite a bit. However, there is still a lot of
 room for improvement. Here are some things that we'll be working on this
 February:
 
-## Aliasing Reduction
+### Aliasing Reduction
 - Texture mip-mapping
 - Multisampling
 - Anisotropic filtering
 
-## Features
+### Features
 - Alpha transparency
 - Normal mapping
 - Physically-correct PBR
 - Model skinning
 - Blend targets
 
-## Performance Improvements
+### Performance Improvements
 - Depth prepass
 - Staging ring buffer for GPU transfers
 - Mesh data pool
