@@ -3,9 +3,11 @@ main:
     url: /about
   - title: "FAQ"
     url: /faq
+  - title: "Discord"
+    url: https://discord.gg/NENngxc
   - title: "Building"
-    url: /building
-  - title: "Design"
-    url: /design
-  - title: "Contributing"
-    url: /contributing
+    url: https://github.com/mondradiko/mondradiko/blob/main/BUILDING.md
+#  - title: "Design"
+#    url: /design
+#  - title: "Contributing"
+#    url: /contributing
