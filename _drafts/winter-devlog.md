@@ -30,7 +30,7 @@ We now support writing scripts in
 based on TypeScript that targets WebAssembly, allowing for flexible and
 user-friendly scripting that doesn't compromise on performance.
 
-Here's the AssemblyScript used to animate the moving lights above:
+Here's the AssemblyScript code used to animate the moving lights above:
 
 ```ts
 import Transform from "./components/Transform.d";
@@ -108,7 +108,7 @@ The renderer has been massively improved since January, and it now features:
 ## To-Do
 
 The renderer doesn't yet support materials that don't supply a base color
-texture, but after support for materials without those textures is supported,
+texture, but after support for materials without those textures is implemented,
 we'll be able to load a much larger variety of scenes. Keep an eye out for
 even more eye candy!
 
@@ -135,7 +135,9 @@ alias = "SlidingLight"
 
 ## Manual Prefabs
 
-Prefabs can also now be created in the bundler manifest manually.
+Prefabs can also now be created in the bundler manifest manually, where before,
+the bundler was limited to using prefabs created from glTF models and their node
+hierarchies.
 
 Here, for example, we're creating a prefab that has a `PointLightComponent` to
 emit light, a `TransformComponent` to position the light in the scene, and a
@@ -194,14 +196,13 @@ eyebrows are missing:
 
 Little creepy.
 
-There are still lots of things to implement in the glTF specification that we
-need to implement, such as bones, weights, blend shapes, multiple texture
-coordinates, animations, and more primitive types, but the loader is coming
-along quite nicely so far.
+There are still lots of things left to implement in the glTF specification, such
+as bones, weights, blend shapes, multiple texture coordinates, animations, and
+more primitive types, but the loader is coming along quite nicely so far.
 
 # Serverless Entrypoint
 
-The Mondradiko client can now also be ran standalone (or serverless), meaning
+The Mondradiko client can now also run standalone (or serverless), meaning
 that testing out changes and content is much more convenient, as the server
 doesn't have to be launched separately anymore:
 
